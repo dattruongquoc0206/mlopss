@@ -14,8 +14,8 @@ pr:
     include:
     - environment_setup/tf-templates/*
 
-pool:
-  vmImage: 'ubuntu-latest'
+pool: mlopsagentdev
+  # vmImage: 'ubuntu-latest'
 
 variables:
 - group: devopsforai-aml-vg
