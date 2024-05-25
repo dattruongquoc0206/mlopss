@@ -21,7 +21,7 @@ variables:
 - template: diabetes_regression-variables-template.yml
 - group: devopsforai-aml-vg
 
-pool: mlopsagentdev
+pool: myhost
   # vmImage: ubuntu-latest
 
 stages:
